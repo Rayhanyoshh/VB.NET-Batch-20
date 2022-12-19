@@ -1,0 +1,15 @@
+D:\Code.id Bootcamp\Batch#20\VbAppConsole\bin\Debug\net6.0\VbAppConsole.exe
+D:\Code.id Bootcamp\Batch#20\VbAppConsole\bin\Debug\net6.0\VbAppConsole.deps.json
+D:\Code.id Bootcamp\Batch#20\VbAppConsole\bin\Debug\net6.0\VbAppConsole.runtimeconfig.json
+D:\Code.id Bootcamp\Batch#20\VbAppConsole\bin\Debug\net6.0\VbAppConsole.dll
+D:\Code.id Bootcamp\Batch#20\VbAppConsole\bin\Debug\net6.0\VbAppConsole.pdb
+D:\Code.id Bootcamp\Batch#20\VbAppConsole\obj\Debug\net6.0\VbAppConsole.vbproj.AssemblyReference.cache
+D:\Code.id Bootcamp\Batch#20\VbAppConsole\obj\Debug\net6.0\VbAppConsole.GeneratedMSBuildEditorConfig.editorconfig
+D:\Code.id Bootcamp\Batch#20\VbAppConsole\obj\Debug\net6.0\VbAppConsole.AssemblyInfoInputs.cache
+D:\Code.id Bootcamp\Batch#20\VbAppConsole\obj\Debug\net6.0\VbAppConsole.AssemblyInfo.vb
+D:\Code.id Bootcamp\Batch#20\VbAppConsole\obj\Debug\net6.0\VbAppConsole.vbproj.CoreCompileInputs.cache
+D:\Code.id Bootcamp\Batch#20\VbAppConsole\obj\Debug\net6.0\VbAppConsole.dll
+D:\Code.id Bootcamp\Batch#20\VbAppConsole\obj\Debug\net6.0\refint\VbAppConsole.dll
+D:\Code.id Bootcamp\Batch#20\VbAppConsole\obj\Debug\net6.0\VbAppConsole.pdb
+D:\Code.id Bootcamp\Batch#20\VbAppConsole\obj\Debug\net6.0\VbAppConsole.genruntimeconfig.cache
+D:\Code.id Bootcamp\Batch#20\VbAppConsole\obj\Debug\net6.0\ref\VbAppConsole.dll
