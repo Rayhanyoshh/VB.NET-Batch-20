@@ -1,7 +1,5 @@
-﻿Namespace Part2
-    Public Class Employee2
-        '1 row record itu 1 objek, 2 row 2 objek
-
+﻿Namespace Part3
+    Public MustInherit Class Employee
         Private _empId As Integer
         Private _FirstName As String
         Private _LastName As String
@@ -9,17 +7,8 @@
         Private _RoleJob As String
         Private _BasicSalary As Double
         Private _totalSalary As Double
-        Private _id As Integer = New Random().NextInt64(1, 10)
 
-        'create constructor, hanya 1 kali menginisial value saat create object
-        'buat constructor dulu baru buat property
-        'constructor untuk menyimpan parameter di Part2
-        '1 class bisa buat lebih dari 1 constructor
-        ' 1 row itu 1 objek
-
-
-
-        Public Sub New(empId As Integer, firstName As String, lastName As String, joinDate As Date, rolejob As String, basicSalary As Double)
+        Protected Sub New(empId As Integer, firstName As String, lastName As String, joinDate As Date, rolejob As String, basicSalary As Double)
             _empId = empId
             _FirstName = firstName
             _LastName = lastName
@@ -28,18 +17,6 @@
             _BasicSalary = basicSalary
             _totalSalary = basicSalary
         End Sub
-
-        Public Sub New(firstName As String, lastName As String, joinDate As Date, rolejob As String, basicSalary As Double)
-            _empId = _id
-            _FirstName = firstName
-            _LastName = lastName
-            _JoinDate = joinDate
-            _RoleJob = rolejob
-            _BasicSalary = basicSalary
-            _totalSalary = basicSalary
-        End Sub
-
-
 
         Public Property EmpId As Integer 'beda nya dengan constructor bisa berkali- kali inisiasi dengan syarat objek sudah sudah dibuat
             Get
@@ -86,8 +63,6 @@
             End Set
         End Property
 
-
-
         Public Property TotalSalary As Double
             Get
                 Return _totalSalary
@@ -107,6 +82,10 @@
             End Set
         End Property
 
+        Public MustOverride Function Nett() As Double
+
+        Public MustOverride Function Gross() As Double
+
         Public Overrides Function ToString() As String  'Me, utk memanggil atribut dalam 1 class
             Return $"                   
 EmpID              : {Me.EmpId}           
@@ -117,5 +96,6 @@ Role Job           : {Me.RoleJob}
 Basic Salary       : {Me.BasicSalary}"
 
         End Function
+
     End Class
 End Namespace
